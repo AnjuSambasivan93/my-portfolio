@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-family: Areal, sans-serif;
+    color: #111827;
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
