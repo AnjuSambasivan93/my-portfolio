@@ -1,0 +1,32 @@
+.projects {
+    padding: 80px 60px;
+    background-color: #f8f9fa;
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 350px;
+    padding: 25px;
+
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    font-size: 22px;
+}
+
+.project-tools {
+    color: #6b7280;
+}
