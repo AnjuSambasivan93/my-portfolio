@@ -11,6 +11,7 @@ function Navbar() {
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
+                <a href="/Anju-Sambasivan-CV.pdf" className="cv-button">CV</a>
             </div>
         </nav>
     );

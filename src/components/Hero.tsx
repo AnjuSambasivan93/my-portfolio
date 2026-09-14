@@ -5,14 +5,15 @@ function Hero() {
     return (
         <section className="hero">
             <div className="hero-content">
-            <p>Based in Christchurch, New Zealand</p>
+           
 
             <h1>
-                Data Analyst & Data Scientist
+                Data & Business Intelligence Analyst
             </h1>
+             <p>Based in Christchurch, New Zealand</p>
 
             <p>
-                I turn complex data into clear insights and useful data solutions.
+                Turning complex data into clear insights, automated reports, and practical data solutions.
             </p>
 
             <div>
