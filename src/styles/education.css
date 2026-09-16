@@ -1,26 +1,43 @@
 .education {
-    padding: 80px 60px;
+    padding: 100px 60px;
 }
 
 .education h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 42px;
+    margin-bottom: 35px;
 }
 
-.education-grid {
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
+.education-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    padding: 25px 0;
+    border-top: 1px solid #d1d5db;
 }
 
-.education-card {
-    width: 350px;
+.education-item > span {
+    color: #6b7280;
+    font-size: 14px;
+}
+.education-item h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.education-item p {
+    margin: 5px 0;
+    color: #4b5563;
+}
+
+
+.certifications {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 70px;
+    
+
+}
+
+.certifications div {
     padding: 25px;
-
     border: 1px solid #d1d5db;
-    border-radius: 10px;
-}
-
-.education-card h3 {
-    font-size: 22px;
 }
