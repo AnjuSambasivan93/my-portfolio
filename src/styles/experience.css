@@ -1,29 +1,57 @@
 .experience {
-    padding: 80px 60px;
+    padding: 100px 60px;
+    background-color: #f8f9fa;
 }
 
 .experience h2 P {
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 42px;
+    margin-bottom: 50px;
 }
 
 .experience-item {
-    max-width: 850px;
-    margin-bottom: 40px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #d1d5db;
+    max-width: 1000px;
+    padding: 30px 0;
+    border-top: 1px solid #d1d5db;
 
 }
 
-.experience-item h3 {
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.experience-header h3 {
     font-size: 24px;
-    margin-bottom: 5px;
+    margin: 0;
 }
 
-.experience-item h4 {
-    margin: 0 0 8px;
+.experience-header h4 {
+    margin: 8px 0;
+    color: #6b7280;
 }
 
-.date {
-    color: #6b7280
+.experience-header span {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.experience-item p {
+    max-width: 750px;
+    line-height: 1.7;
+    color: #4b5563;
+}
+
+.experience-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top:  20px;
+}
+
+.experience-tools span {
+    padding: 7px 11px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 13px;
 }
