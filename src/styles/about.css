@@ -12,7 +12,7 @@
 }
 
 .about h2 {
-    font-size: 36px;
+    font-size: 32px;
     max-width: 750px;
     line-height: 1.2;
     margin-bottom: 40px;
@@ -52,4 +52,19 @@
 .about-details strong {
     font-size: 18px;
     color: #111827;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 70px 20px;
+    }
+
+    .about h2 {
+        font-size: 32px;
+    }
+
+    .about-details {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
 }

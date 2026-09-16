@@ -55,7 +55,7 @@
 }
 
 .secondary-button {
-    border: 1x solid #111827;
+    border: 1px solid #111827;
     color: #111827;
 }
 
@@ -141,4 +141,29 @@
 
 .hero-socials a:hover {
     background-color: #f3f4f6;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 40px;
+    }
+
+    .hero-content {
+        font-size: 40px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        height: auto;
+    }
+    
+    .hero-stat {
+        flex-direction: column;
+        gap: 20px;
+    }
 }

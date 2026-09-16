@@ -1,10 +1,10 @@
 .education {
     padding: 100px 60px;
 }
-
-.education h2 {
-    font-size: 42px;
-    margin-bottom: 35px;
+.education-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
 }
 
 .education-item {
@@ -31,8 +31,7 @@
 
 .certifications {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 70px;
+    grid-template-columns: 1fr
     
 
 }
@@ -40,4 +39,24 @@
 .certifications div {
     padding: 25px;
     border: 1px solid #d1d5db;
+}
+
+@media (max-width: 768px) {
+    .education {
+        padding: 70px 20px;
+    }
+
+    .education h2 {
+        font-size: 32px;
+    }
+    .education-item {
+        grid-template-columns: 1fr;
+    }
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+    .certifications {
+        grid-template-columns: 1fr;
+    }
+
 }

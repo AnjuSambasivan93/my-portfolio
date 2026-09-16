@@ -4,7 +4,6 @@ function Skills() {
     return (
         <section id="skills" className="skills">
             <p className="section-number">SKILLS</p>
-            <h2>Tools & Technologies</h2>
 
             <div className="skills-grid">
 

@@ -3,10 +3,6 @@
     background-color: white;
 }
 
-.skills h2 {
-    font-size: 42px;
-    margin-bottom: 40px;
-}
 
 .skills-grid {
     display:grid;
@@ -39,4 +35,19 @@
     border: 1px solid #d1d5db;
     border-radius: 5px;
     font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .skills {
+        padding: 70px 20px;
+    }
+
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-group {
+        padding: 25px;
+    }
 }

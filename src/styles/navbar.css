@@ -35,3 +35,13 @@
     border: 1px solid #111827;
     border-radius: 6px;
 }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 20px;
+    }
+    .nav-links {
+        display: none;
+    }
+}

@@ -23,7 +23,7 @@ function Hero() {
                 </a>
 
                 <a href="/resume.pdf" className="secondary-button">
-                    Dowload CV
+                    Download CV
                 </a>
             </div>
 
@@ -68,7 +68,7 @@ function Hero() {
 
                     <a href="https://www.linkedin.com/in/anjusambasivan/"><FaLinkedin/>LinkedIn</a>
 
-                    <a href="aanju9363@gmail.com"><FaEnvelope/>Email</a>
+                    <a href="mailto:aanju9363@gmail.com"><FaEnvelope/>Email</a>
                 </div>
             </div>
 

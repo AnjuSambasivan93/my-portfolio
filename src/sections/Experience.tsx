@@ -4,14 +4,13 @@ function Experience() {
     return (
         <section id="experience" className="experience">
             <p className="section-number">Experience</p>
-            <h2>Professional Experience</h2>
 
             <div className="experience-item">
 
                 <div className="experience-header">
                     <div>
                         <h3>Data Scientist</h3>
-                        <h3>PHF Science</h3>
+                        <h4>PHF Science</h4>
                     </div>
                     <span>Jan 2026 - June 2026</span>
                 </div>
@@ -43,7 +42,7 @@ function Experience() {
 
                 <p>
                     Developed a Community Health and Wellbeing Reporting Platform to automate data analysis and
-                    reporting and reporting across New Zealand.
+                    reporting across New Zealand.
                 </p>
 
                 <div className="experience-tools">
@@ -70,7 +69,7 @@ function Experience() {
 
                 <p>
                     Developed a Business Intelligence solution to analyse Australian property, location and school data using 
-                    data warehousing, ETL and intercative dashboards.
+                    data warehousing, ETL and interactive dashboards.
                 </p>
 
                 <div className="experience-tools">

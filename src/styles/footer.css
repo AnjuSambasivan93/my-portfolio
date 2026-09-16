@@ -4,3 +4,8 @@
     background-color: #0f172a;
     color: white;
 }
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px;
+    }
+}

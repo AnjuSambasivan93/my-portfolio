@@ -4,7 +4,6 @@ function Projects() {
     return (
         <section id="projects" className="projects">
             <p className="section-number">PROJECTS</p>
-            <h2>Selected Projects</h2>
 
             <div className="project-grid">
 
