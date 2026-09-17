@@ -83,6 +83,58 @@ function Experience() {
                     <span>Data Warehousing</span>
                 </div>
             </div>
+
+
+
+            <div className="experience-item">
+                <div className="experience-header">
+                    <div>
+                        <h3>Lecturer</h3>
+                        <h4>Gurudeva Institute of Science & Technology</h4>
+                    </div>
+
+                    <span>Aug 2019 - Aug 2020</span>
+                </div>
+
+                <p>
+                    Taught undergraduate courses in Python, SQL and Database Management Systems,
+                    including practical programming, database design, data manipulation,
+                    debugging and problem-solving.
+                </p>
+
+                <div className="experience-tools">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>DBMS</span>
+                    <span>Database Design</span>
+                </div>
+            </div>
+
+
+            <div className="experience-item">
+                <div className="experience-header">
+                    <div>
+                        <h3>Associate Analyst</h3>
+                        <h4>Brain Script Analytica</h4>
+                    </div>
+
+                    <span>Nov 2018 - Jul 2019</span>
+                </div>
+
+                <p>
+                    Developed and evaluated machine learning models to forecast electricity
+                    demand using historical data, including data preprocessing, model comparison,
+                    performance evaluation and visualisation.
+                </p>
+
+                <div className="experience-tools">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Machine Learning</span>
+                    <span>TensorFlow</span>
+                    <span>Keras</span>
+                </div>
+            </div>
         </section>
     )
 
