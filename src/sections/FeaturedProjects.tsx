@@ -16,6 +16,14 @@ import community10 from "../assets/projects/community-10.png";
 
 import addin1 from "../assets/projects/addin-1.png";
 
+
+import ssis1 from "../assets/projects/ssis-1.png";
+import ssis2 from "../assets/projects/ssis-2.png";
+import ssis3 from "../assets/projects/ssis-3.png";
+import ssis4 from "../assets/projects/ssis-4.png";
+import ssis5 from "../assets/projects/ssis-5.png";
+
+
 function FeaturedProjects() {
 
     const projects = [
@@ -51,6 +59,21 @@ function FeaturedProjects() {
             ],
             tools: "React, TypeScript, Node.js, PostgreSQL, Office.js, LLM",
             link:"#"
+        },
+        {
+            title: "Property Market Business Intelligence Solution",
+            company: "MVP Studio",
+            description:
+            "Developed an end-to-end Business Intelligence solution for property market analysis, using SSIS for ETL, SQL Server for data warehousing and analytical views, and Power BI for interactive reporting and visualisation.",
+            images: [
+                ssis1,
+                ssis2,
+                ssis3,
+                ssis4,
+                ssis5
+            ],
+            tools: "SQL Server, SSIS, Power BI, ETL, Data Warehousing, SQL",
+            link: "#"
         }
     ];
 
