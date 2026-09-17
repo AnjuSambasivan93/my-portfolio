@@ -17,6 +17,10 @@
     gap: 60px;
 }
 
+.education-column {
+    padding-top: 70px;
+}
+
 .education-item {
     display: grid;
     grid-template-columns:1fr;

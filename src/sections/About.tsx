@@ -9,19 +9,17 @@ function About() {
             <h2> Turning data into clear insights and practical solutions</h2>
             <div className="about-content">
             <div className="about-text">
-            <p>I am a Data & Business Intelligence Analyst with a Master of Applied Data Science from 
-                the University of Canterbury and professional experience in data analytics, 
-                business intelligence and automated reporting.</p>
+           <p>
+            Data & Business Intelligence Analyst with a Master of Applied Data Science from the University of Canterbury and professional experience in data analytics, business intelligence, and automated reporting.
+        </p>
 
-            <p>I have experience working with complex datasets using Python and SQL,
-                 developing ETL workflows and data models, and creating Power BI dashboards and 
-                 visualisations that turn data into clear, decision-useful insights. At PHF Science, 
-                 I developed automated data pipelines and Community Health and Wellbeing Profiles for Territorial Authorities across New Zealand, including statistical and geospatial analysis.</p>
+        <p>
+            Skilled in Python, SQL, Power BI, ETL, data modelling, PostgreSQL, and data visualisation, with experience transforming complex datasets into clear, actionable insights. At PHF Science, developed automated data pipelines and Community Health and Wellbeing Profiles using statistical and geospatial analysis, and contributed to an AI-powered Microsoft Word reporting platform that generated and refreshed data, tables, charts, maps, and analytical content.
+        </p>
 
-            <p>My experience also includes working with researchers and stakeholders to understand requirements, 
-                validate data and deliver practical reporting solutions. 
-                I have additional development experience with React, TypeScript, REST APIs and PostgreSQL, 
-                allowing me to work across both data analysis and data-driven applications. </p>
+        <p>
+            Experienced in working with researchers and stakeholders to understand requirements, validate data, solve analytical problems, and deliver reliable, practical reporting solutions. Technical experience with React, TypeScript, REST APIs, and Office.js also supports the development of data-driven applications.
+        </p>
                 </div>
 
             <div className="about-details">

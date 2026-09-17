@@ -37,7 +37,7 @@ function Hero() {
                 </div>
 
                 <div className="stat">
-                    <strong>PHF Science</strong>
+                    <strong>Public Health and Forensic Science</strong>
                     <span>Industry Experience</span>
                 </div>
                 <div className="stat">

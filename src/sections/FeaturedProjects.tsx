@@ -2,12 +2,19 @@ import { useState } from "react";
 import "../styles/featuredProjects.css";
 import { useProjectStore } from "../store/projectStore";
 
-import community1 from "../assets/projects/community-1.jpg";
-import community2 from "../assets/projects/community-2.jpg";
-import community3 from "../assets/projects/community-3.jpg";
+import community1 from "../assets/projects/community-1.png";
+import community2 from "../assets/projects/community-2.png";
+import community3 from "../assets/projects/community-3.png";
+import community4 from "../assets/projects/community-4.png";
+import community5 from "../assets/projects/community-5.png";
+import community6 from "../assets/projects/community-6.png";
+import community7 from "../assets/projects/community-7.png";
+import community8 from "../assets/projects/community-8.png";
+import community9 from "../assets/projects/community-9.png";
+import community10 from "../assets/projects/community-10.png";
 
 
-import addin1 from "../assets/projects/addin-1.jpg";
+import addin1 from "../assets/projects/addin-1.png";
 
 function FeaturedProjects() {
 
@@ -20,9 +27,16 @@ function FeaturedProjects() {
             images: [
                 community1,
                 community2,
-                community3
+                community3,
+                community4,
+                community5,
+                community6,
+                community7,
+                community8,
+                community9,
+                community10
             ],
-            tools: "Python, Pandas, GeoPandas, NumPy, Spatial Analysis, ETL",
+                        tools: "Python, Pandas, GeoPandas, NumPy, Spatial Analysis, ETL",
             link: "#"
             
         },
@@ -115,11 +129,37 @@ function FeaturedProjects() {
             <p className="featured-tools">
                 {project.tools}
             </p>
+            {currentProject === 0 && (
+                <div className="sample-reports">
 
-            <a href={project.link} className="featured-link">
-                View All Reports →
-            </a>
+                    <a href="/reports/report-1.pdf" target="_blank">
+                        Sample Report 1
+                    </a>
 
+                    <a href="/reports/report-2.pdf" target="_blank">
+                        Sample Report 2
+                    </a>
+
+                    <a href="/reports/report-3.pdf" target="_blank">
+                        Sample Report 3
+                    </a>
+
+                    <a href="/reports/report-4.pdf" target="_blank">
+                        Sample Report 4
+                    </a>
+
+                    <a href="/reports/report-5.pdf" target="_blank">
+                        Sample Report 5
+                    </a>
+                    <a href="/reports/report-6.pdf" target="_blank">
+                        Sample Report 6
+                    </a>
+                    <a href="/reports/report-7.pdf" target="_blank">
+                        Sample Report 7
+                    </a>
+
+                </div>
+            )}
 
 
         </section>

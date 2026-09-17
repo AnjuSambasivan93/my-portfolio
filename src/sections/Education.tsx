@@ -97,7 +97,7 @@ function Education() {
                                 href="http://ude.my/UC-9b905bfb-3b82-45b1-acad-604d210ff301"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            ></a>
+                            >View Credential</a>
                         </div>
                     </div>
 
@@ -112,7 +112,7 @@ function Education() {
                                 href= "https://www.linkedin.com/learning/certificates/64f54fc4d06b58235d536c22e4170b2a847cb4971655946dd527a0351c62bab4"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            ></a>
+                            >View Credential</a>
                         </div>
                     </div>
 
@@ -127,7 +127,7 @@ function Education() {
                                 href="https://www.credly.com/badges/6dc34ab3-6447-4133-8060-c08c74d64dd9"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            ></a>
+                            >View Credential</a>
                         </div>
                     </div>
 
@@ -144,7 +144,7 @@ function Education() {
                                 href="http://ude.my/UC-06bb608f-82ca-4095-a7a7-953907f4f519"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            ></a>
+                            >View Credential</a>
                         </div>
                     </div>
 

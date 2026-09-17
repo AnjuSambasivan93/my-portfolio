@@ -84,6 +84,25 @@
     text-decoration: none;
 }
 
+.sample-reports {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.sample-reports a {
+    padding: 10px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #111827;
+}
+
+.sample-reports a:hover {
+    background-color: #f3edf8;
+}
+
 
 @media (max-width: 768px) {
     .featured-projects {

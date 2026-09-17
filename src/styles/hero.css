@@ -24,12 +24,18 @@
 }
 
 .hero-content .hero-note {
-    margin-top: 25px;
-    font-size: 14px;
-    font-weight: normal;
-    color: #6b7280;
-}
+    display: inline-block;
+    margin-top: 70px;
+    padding: 10px 16px;
 
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    font-size: 12px;
+    font-weight: normal;
+    color: #4b5563;
+    background-color: white;
+}
 .hero-descriptions {
     font-size: 18px;
     max-width: 600px;
