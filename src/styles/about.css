@@ -1,6 +1,9 @@
 .about {
-    padding: 100px 60px;
+    padding: 100px 12%;
     background-color: #f8f9fa;
+}
+.about .section-number {
+    font-size: 16px;
 }
 
 .section-number {
@@ -30,12 +33,17 @@
 }
 
 .about-details {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 30px;
-    margin-top: 50px;
-    padding-top: 35px;
-    border-top: 1px solid #d1d5db;
+    padding-left: 40px;
+    border-left: 1px solid #d1d5db;
+}
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 80px;
+    align-items: start;
 }
 
 .about-details div {

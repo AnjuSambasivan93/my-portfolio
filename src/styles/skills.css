@@ -1,20 +1,27 @@
 .skills {
-    padding: 100px 60px;
+    padding: 100px 12%;
     background-color: white;
+}
+.skills .section-number {
+    font-size: 15px;
 }
 
 
 .skills-grid {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 1px solid #d1d5db;
+    border: 1px solid #e3e7ec;
     max-width: 1200px;
     margin: 0 auto;
 
 }
+.skill-group:hover {
+    background-color: #f3edf8;
+
+}
 
 .skill-group {
-    padding: 25px;
+    padding: 50px;
     min-height: 180px;
     border: 1px solid #d1d5db;
 }

@@ -3,7 +3,7 @@ import "../styles/experience.css";
 function Experience() {
     return (
         <section id="experience" className="experience">
-            <p className="section-number">Experience</p>
+            <p className="section-number">EXPERIENCE</p>
 
             <div className="experience-item">
 
@@ -12,11 +12,12 @@ function Experience() {
                         <h3>Data Scientist</h3>
                         <h4>PHF Science</h4>
                     </div>
-                    <span>Jan 2026 - June 2026</span>
+                    <span>Jan 2026 - July 2026</span>
                 </div>
 
-                <p>Developed an AI-powered reporting platform that helped
-                    researchers automatically create public health and community wellbeing reports from data.
+                <p>Developed a Microsoft Word Add-in that enables researchers to create and refresh
+    public health and community wellbeing reports with data, tables, charts, maps,
+    and AI-assisted content directly in Word.
                 </p>
 
                 <div className="experience-tools">
@@ -41,9 +42,10 @@ function Experience() {
                 </div>
 
                 <p>
-                    Developed a Community Health and Wellbeing Reporting Platform to automate data analysis and
-                    reporting across New Zealand.
-                </p>
+    Built a Community Health and Wellbeing Reporting Platform using Python ETL pipelines
+    to clean, transform, and combine multiple datasets, enabling automated analysis and
+    report generation for Territorial Authorities across New Zealand.
+</p>
 
                 <div className="experience-tools">
                     <span>Python</span>

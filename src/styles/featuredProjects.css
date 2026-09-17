@@ -1,5 +1,8 @@
 .featured-projects {
-    padding: 100px 60px;
+    padding: 100px 12%;
+}
+.featured-projects .section-number {
+    font-size: 15px;
 }
 
 .featured-header {

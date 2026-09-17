@@ -2,13 +2,13 @@ body {
     margin: 0;
     font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
     color: #111827;
-    background-color: #ffffff;
-}
+    background-color:#f7eef1;
 
 * {
     box-sizing: border-box;
 }
 
 section {
-    border-bottom: 1px solid #d1d5db;
+    border-bottom: 1px solid #e1bac1;
+}
 }

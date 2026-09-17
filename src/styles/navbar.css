@@ -6,12 +6,19 @@
     align-items: center;
 
     border-bottom: 1px solid #e5e7eb;
-    background-color: white;
+    background-color: #9B4A5A;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
     margin: 0;
     font-size: 22px;
+    color: white;
 }
 
 .nav-links {
@@ -22,17 +29,18 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #111827;
-    font-size: 14px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .nav-links a:hover {
-    color: #2563eb;
+    color: #04112c;
 }
 
 .cv-button {
     padding: 9px 18px;
-    border: 1px solid #111827;
+    border: 1px solid white;
     border-radius: 6px;
 }
 

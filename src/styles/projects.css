@@ -1,8 +1,14 @@
 .projects {
-    padding: 80px 60px;
+    padding: 80px 12%;
     background-color: #f8f9fa;
 }
+.projects .section-number {
+    font-size: 15px;
+}
 
+.project-card:hover {
+    background-color: #f3edf8;
+}
 
 .project-grid {
     display: grid;

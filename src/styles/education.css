@@ -1,6 +1,16 @@
 .education {
-    padding: 100px 60px;
+    padding: 100px 12%;
 }
+
+.education .section-number {
+    font-size: 15px;
+}
+
+.education-item strong {
+    color: #5C2D91;
+    font-size: 14px;
+}
+
 .education-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -9,7 +19,7 @@
 
 .education-item {
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns:1fr;
     padding: 25px 0;
     border-top: 1px solid #d1d5db;
 }

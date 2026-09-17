@@ -12,6 +12,7 @@ function Skills() {
 
                     <div className="skill-list">
                         <span>Python</span>
+                        <span>R</span>
                         <span>SQL</span>
                         <span>Power BI</span>
                         <span>Pandas</span>
@@ -28,6 +29,7 @@ function Skills() {
                         <span>ETL</span>
                         <span>Data Modelling</span>
                         <span>Data Warehousing</span>
+                        <span>Snowflake</span>
                         <span>PostgreSQL</span>
                         <span>SQL Server</span>
                     </div>
@@ -40,6 +42,7 @@ function Skills() {
                         <span>React</span>
                         <span>TypeScript</span>
                         <span>Node.js</span>
+                        <span>Office.js</span>
                         <span>Express.js</span>
                         <span>REST APIs</span>
                     </div>
@@ -65,8 +68,11 @@ function Skills() {
                     <div className="skill-list">
                         <span>Machine Learning</span>
                         <span>Statistical Analysis</span>
+                        <span>Predictive Modelling</span>
                         <span>Spatial Analysis</span>
-                        <span>Numpy</span>
+                        <span>NumPy</span>
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
                     </div>
                 </div>
 

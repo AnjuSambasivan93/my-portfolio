@@ -3,7 +3,7 @@ import "../styles/footer.css";
 function Footer(){
     return (
         <footer className="footer">
-            <p>© 2026 My Portfolio</p>
+            <p>© 2026 Anju Sambasivan. All rights reserved.</p>
         </footer>
     )
 }

@@ -6,9 +6,7 @@ function Hero() {
     return (
         <section className="hero">
             <div className="hero-content">
-                
-           <p>CHRISTCHURCH, NEW ZEALAND</p>
-
+            
             <h1>
                 Data & Business Intelligence Analyst
             </h1>
@@ -22,7 +20,10 @@ function Hero() {
                     View Projects
                 </a>
 
-                <a href="/resume.pdf" className="secondary-button">
+                <a href="/ANJU_SAMBASIVAN_CV_Data_Analytics_09_2026.pdf" target="_blank" rel="noopener noreferrer" className="secondary-button">
+                View CV</a>
+
+                <a href="/ANJU_SAMBASIVAN_CV_Data_Analytics_09_2026.pdf" download className="secondary-button">
                     Download CV
                 </a>
             </div>
@@ -52,6 +53,10 @@ function Hero() {
             
             </div>
 
+            <p className="hero-note">
+                Christchurch, New Zealand  · Open to relocation
+            </p>
+
         </div>
 
 
@@ -59,7 +64,7 @@ function Hero() {
                 <img src={profileImage} alt="Profile" />
 
                 <div className="image-info">
-                    <strong>Anju Sambasivan</strong>
+                    <span>Anju Sambasivan</span>
                     <span>Data & BI Analyst</span>
                 </div>
 
@@ -68,7 +73,7 @@ function Hero() {
 
                     <a href="https://www.linkedin.com/in/anjusambasivan/" target="_blank" rel="noopener noreferrer"><FaLinkedin/>LinkedIn</a>
 
-                    <a href="mailto:aanju9363@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope/>Email</a>
+                    <a href="mailto:aanju9363@gmail.com"><FaEnvelope/>Email</a>
                 </div>
             </div>
 

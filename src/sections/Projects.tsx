@@ -11,33 +11,27 @@ function Projects() {
                     <span className="project-number">01</span>
                     <h3>Community Health & Wellbeing Platform</h3>
                     <p className="project-company">PHF Science</p>
-                    <h4>Situation</h4>
-                    <p>
-                        Public health and Community data came from multiple datasets
-                         and geographic levels across New Zealand.
-                    </p>
+                    <h4>Situation</h4> <p> Public health and community wellbeing data was spread across multiple datasets, formats and geographic levels across New Zealand. </p>
 
-                    <h4>Task</h4>
-                    <p>
-                        Create a reusable process to analyse community wellbeing indicators and automate reporting.
-                    </p>
-                    <h4>Action</h4>
-                    <p>Built Python ETL pipelines, calculated indicators, 
-                       performed spatial analysis and automated report creation
-                    </p>
+                    <h4>Task</h4> <p> Build an automated and reusable system to analyse community wellbeing
+                         indicators and generate profiles for Territorial Authorities across New Zealand. </p>
 
-                    <h4>Result</h4>
-                    <p>
-                        Developed a reusable platform for data processing, visualisation
-                         and Community Health and Wellbeing profiles.
-                    </p>
+                    <h4>Action</h4> <p> Built Python ETL pipelines to clean and combine datasets,
+                         calculate wellbeing indicators and composite scores, aggregate SA2 data to TA level, perform geospatial analysis with GeoPandas, and automatically generate maps, charts and summary tables. </p>
+
+                    <h4>Result</h4> <p> Developed an automated Community Health & Wellbeing Profile System that
+                         transforms multiple datasets into reusable analysis and generates consistent community profiles
+                          for TAs across New Zealand. </p>
 
                     <div className="project-tools">
                         <span>Python</span>
                         <span>Pandas</span>
-                        <span>Geopandas</span>
-                        <span>Numpy</span>
+                        <span>GeoPandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>Folium</span>
                         <span>ETL</span>
+                        <span>Geospatial Analysis</span>
                     </div>
 
                     <a href="#" className="project-link">
@@ -51,34 +45,39 @@ function Projects() {
 
                     <h3>AI-Powered Reporting Platform</h3>
                     <p className="project-company">PHF Science</p>
-
-                    <h4>Situation</h4>
+                <h4>Situation</h4>
                     <p>
-                        Researchers needed an easier way to create reports containing data, charts, maps and analytical content.
+                        Researchers needed an easier way to create data-driven reports
+                        containing statistics, tables, charts, maps and analytical content.
                     </p>
 
                     <h4>Task</h4>
                     <p>
-                        Build a reporting solutions that could generate and refresh data-driven content directly in Microsoft Word.
+                        Develop a Microsoft Word Add-in that could generate, insert and
+                        refresh dynamic reporting content directly in Word.
                     </p>
+
                     <h4>Action</h4>
                     <p>
-                        Build a Word Add-in with React and TypeScript, REST APIs with Node.js and Express.js,
-                         and integrated PostgreSQL data and LLM-generated content.
+                        Developed the Word Add-in using React, TypeScript and Office.js,
+                        integrated REST APIs and PostgreSQL data, and added LLM-generated
+                        titles, captions and analytical content.
                     </p>
 
                     <h4>Result</h4>
                     <p>
-                        Created an automated reporting platform capable of generating statistics, tables, charts, maps
-                        and AI-assisted reporting content.
+                        Built an automated reporting solution that enabled researchers to
+                        insert and refresh statistics, tables, charts, maps and AI-assisted
+                        content directly in Microsoft Word.
                     </p>
 
                     <div className="project-tools">
                         <span>React</span>
                         <span>TypeScript</span>
-                        <span>Node.js</span>
-                        <span>PostgreySQL</span>
                         <span>Office.js</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>PostgreSQL</span>
                     </div>
 
                     <a href="#" className="project-link">
@@ -91,33 +90,35 @@ function Projects() {
                     <h3>Property Business Intelligence Solution</h3>
                     <p className="project-company">MVP Studio</p>
                     <h4>Situation</h4>
+                        <p>
+                            Property, location and school data was stored across multiple CSV and Excel datasets.
+                        </p>
 
-                    <p>
-                        Property, location and school inforamtion was stored across different CSV and Excel datasets.
-                    </p>
+                        <h4>Task</h4>
+                        <p>
+                            Build an end-to-end Business Intelligence solution for analysing Australian property data.
+                        </p>
 
-                    <h4>Task</h4>
-                    <p>
-                        Create a Business Intellgence solution for analysing Australian property data.
-                    </p>
-                    <h4>Action</h4>
-                    <p>
-                        Built a SQL Server data warehouse, developed SSIS ETL pipelines and created a Power BI model with DAX measures.
-                    </p>
+                        <h4>Action</h4>
+                        <p>
+                            Designed a SQL Server data warehouse using dimensional modelling, built SSIS ETL pipelines
+                            to extract, transform and load data, and developed a Power BI data model with DAX measures.
+                        </p>
 
-                    <h4>Result</h4>
-                    <p>
-                        Developed intercative dashboards for analysing property
-                         values by city, suburb, postcode and value category.
-                    </p>
+                        <h4>Result</h4>
+                        <p>
+                            Developed interactive Power BI dashboards to analyse property values by city, suburb,
+                            postcode and value category, with geographic mapping and interactive filters.
+                        </p>
 
-                    <div className="project-tools">
-                        <span>SQL Server</span>
-                        <span>SSIS</span>
-                        <span>Power BI</span>
-                        <span>DAX</span>
-                        <span>ETL</span>
-                    </div>
+                        <div className="project-tools">
+                            <span>SQL Server</span>
+                            <span>SSIS</span>
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>ETL</span>
+                            <span>Dimensional Modelling</span>
+                        </div>
 
                     <a href="#" className="project-link">
                         View Project
