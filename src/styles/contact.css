@@ -1,6 +1,6 @@
 .contact {
     padding: 100px 5%;
-    background-color: #111827;
+    background-color: #9B4A5A;
     color: white;
 }
 
@@ -8,10 +8,7 @@
     font-size: 42px;
 }
 
-.contact > p {
-    max-width: 600px;
-    line-height: 1.7;
-}
+
 
 .contact-links {
     display: flex;

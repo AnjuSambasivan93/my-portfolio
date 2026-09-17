@@ -18,7 +18,7 @@ function Education() {
                        
                         <div>
                             <h3>Master of Applied Data Science</h3>
-                            <strong>Distinction</strong>
+                            <strong>GPA: 7.50/9</strong>
                             <p>University of Canterbury</p>
                             <p>Christchurch, New Zealand</p>
                         </div>
@@ -28,7 +28,7 @@ function Education() {
                        
                         <div>
                             <h3>Master of Technology</h3>
-                            <strong>Distinction</strong>
+                            <strong>GPA: 9.63/10</strong>
                             <p>Computer and Information Sciences</p>
                             <p>APJ Abdul Kalam Technological University</p>
                         </div>
@@ -38,7 +38,7 @@ function Education() {
                     
                         <div>
                             <h3>Bachelor of Technology</h3>
-                            <strong>First Class</strong>
+                            <strong>GPA: 7/9</strong>
                             <p>Computer Science</p>
                             <p>Mahatma Gandhi University</p>
                         </div>

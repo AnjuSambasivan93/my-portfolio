@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/featuredProjects.css";
+import { useProjectStore } from "../store/projectStore";
 
 import community1 from "../assets/projects/community-1.jpg";
 import community2 from "../assets/projects/community-2.jpg";
@@ -39,7 +40,9 @@ function FeaturedProjects() {
         }
     ];
 
-    const [currentProject, setCurrentProject] = useState(0);
+    const currentProject = useProjectStore((state) => state.selectedProject);
+    const setCurrentProject = useProjectStore((state) => state.setSelectedProject);
+
     const [currentImage, setCurrentImage] = useState(0);
 
     const project = projects[currentProject];
@@ -69,7 +72,7 @@ function FeaturedProjects() {
     };
 
     return (
-        <section className="featured-projects">
+        <section id="featured-projects" className="featured-projects">
 
             <p className="section-number">
                 FEATURED PROJECT

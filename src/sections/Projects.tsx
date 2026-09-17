@@ -1,6 +1,17 @@
 import "../styles/projects.css";
+import { useProjectStore } from "../store/projectStore";
 
 function Projects() {
+
+    const setSelectedProject = useProjectStore(
+        (state) => state.setSelectedProject
+    );
+    const viewProject = (index: number) => {
+        setSelectedProject(index);
+        document
+            .getElementById("featured-projects")
+            ?.scrollIntoView({ behavior: "smooth"})
+    }
     return (
         <section id="projects" className="projects">
             <p className="section-number">PROJECTS</p>
@@ -34,9 +45,11 @@ function Projects() {
                         <span>Geospatial Analysis</span>
                     </div>
 
-                    <a href="#" className="project-link">
-                        View Project
-                    </a>
+                    <button 
+                        className="project-link"
+                        onClick={() => viewProject(0)}>
+                            View Project
+                        </button>
 
                 </div>
 
@@ -80,9 +93,11 @@ function Projects() {
                         <span>PostgreSQL</span>
                     </div>
 
-                    <a href="#" className="project-link">
-                        View Project
-                    </a>
+                    <button
+                        className="project-link"
+                        onClick={() => viewProject(1)} >
+                            View Project
+                        </button>
                 </div>
 
                 <div className="project-card">
@@ -120,9 +135,11 @@ function Projects() {
                             <span>Dimensional Modelling</span>
                         </div>
 
-                    <a href="#" className="project-link">
-                        View Project
-                    </a>
+                    <button
+                        className="project-link"
+                        onClick={() => viewProject(2)}>
+                            View Project
+                        </button>
                 </div>
 
             </div>

@@ -1,6 +1,6 @@
 import "../styles/hero.css";
 import { FaGithub, FaLinkedin,  FaEnvelope} from "react-icons/fa";
-import profileImage from "../assets/profile.jpeg";
+import profileImage from "../assets/profile.jpg";
 
 function Hero() {
     return (
@@ -63,10 +63,7 @@ function Hero() {
             <div className="hero-image">
                 <img src={profileImage} alt="Profile" />
 
-                <div className="image-info">
-                    <span>Anju Sambasivan</span>
-                    <span>Data & BI Analyst</span>
-                </div>
+                
 
                 <div className="hero-socials">
                     <a href="https://github.com/AnjuSambasivan93/anju_data_analyst" target="_blank" rel="noopener noreferrer"><FaGithub />GitHub</a>
