@@ -12,9 +12,9 @@ function Contact() {
             </p>
 
             <div className="contact-links">
-                <a href="mailto:aanju9363@gmail.com">Email</a>
-                <a href="https://www.linkedin.com/in/anjusambasivan/">LinkedIn</a>
-                <a href="https://github.com/AnjuSambasivan93/anju_data_analyst">GitHub</a>
+                <a href="mailto:aanju9363@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                <a href="https://www.linkedin.com/in/anjusambasivan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/AnjuSambasivan93/anju_data_analyst" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </section>
     )

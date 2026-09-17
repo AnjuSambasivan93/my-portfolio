@@ -7,6 +7,7 @@ import Projects from "./sections/Projects";
 import Education from "./sections/Education";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import FeaturedProjects from "./sections/FeaturedProjects";
 
 function App(){
   return (
@@ -14,6 +15,7 @@ function App(){
     <Navbar />
     <Hero />
     <About />
+    <FeaturedProjects />
     <Skills />
     <Experience />
     <Projects />

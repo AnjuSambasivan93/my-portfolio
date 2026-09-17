@@ -64,11 +64,11 @@ function Hero() {
                 </div>
 
                 <div className="hero-socials">
-                    <a href="https://github.com/AnjuSambasivan93/anju_data_analyst"><FaGithub />GitHub</a>
+                    <a href="https://github.com/AnjuSambasivan93/anju_data_analyst" target="_blank" rel="noopener noreferrer"><FaGithub />GitHub</a>
 
-                    <a href="https://www.linkedin.com/in/anjusambasivan/"><FaLinkedin/>LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/anjusambasivan/" target="_blank" rel="noopener noreferrer"><FaLinkedin/>LinkedIn</a>
 
-                    <a href="mailto:aanju9363@gmail.com"><FaEnvelope/>Email</a>
+                    <a href="mailto:aanju9363@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope/>Email</a>
                 </div>
             </div>
 

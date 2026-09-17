@@ -8,6 +8,8 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     border: 1px solid #d1d5db;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 

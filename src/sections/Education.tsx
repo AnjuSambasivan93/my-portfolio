@@ -51,7 +51,9 @@ function Education() {
                         <div>
                             <span>Microsoft Certified</span>
                             <h3>Azure Fundamentals - AZ-900</h3>
-                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/AnjuSambasivan-8025/B2AED9C7113798E8?sharingId=1409CC9F6ACCF446">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/AnjuSambasivan-8025/B2AED9C7113798E8?sharingId=1409CC9F6ACCF446"
+                            target="_blank"
+                            rel="noopener noreferrer">
                                 View Credential
                             </a>
                         </div>
@@ -62,7 +64,9 @@ function Education() {
                                 Industry Connect Expert Certification -
                                 Business Intelligence Developer
                             </h3>
-                            <a href="https://industryconnect.io/Authority/ViewCertificate?guid=7504026c-a0fa-4005-8f8c-a67c448ac3f7">
+                            <a href="https://industryconnect.io/Authority/ViewCertificate?guid=7504026c-a0fa-4005-8f8c-a67c448ac3f7"
+                            target="_blank"
+                            rel="noopener noreferrer">
                                 View Credential
                             </a>
                         </div>

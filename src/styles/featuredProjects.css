@@ -1,0 +1,82 @@
+.featured-projects {
+    padding: 100px 60px;
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-header h2 {
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.featured-company {
+    color: #6b7280;
+}
+.featured-description {
+    max-width: 800px;
+    line-height: 1.7;
+    color: #4b5563;
+    margin: 25px 0;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.project-buttons button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.featured-image {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+}
+
+.image-left,
+.image-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.image-left {
+    left: 20px;
+}
+
+.image-right {
+    right: 20px;
+}
+
+.image-count {
+    text-align: center;
+    margin-top: 10px;
+    color: #6b7280;
+}
+
+.featured-tools {
+    margin-top: 25px;
+    color: #4b5563;
+}
+
+.featured-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #111827;
+    font-weight: 600;
+    text-decoration: none;
+}
