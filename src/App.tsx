@@ -8,6 +8,7 @@ import Education from "./sections/Education";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import FeaturedProjects from "./sections/FeaturedProjects";
+import Presentations from "./sections/Presentations";
 
 function App(){
   return (
@@ -16,6 +17,7 @@ function App(){
     <Hero />
     <About />
     <FeaturedProjects />
+    <Presentations />
     <Skills />
     <Experience />
     <Projects />
