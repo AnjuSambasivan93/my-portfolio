@@ -53,9 +53,17 @@ function Hero() {
             
             </div>
 
-            <p className="hero-note">
-                Christchurch, New Zealand  · Open to relocation
-            </p>
+           <div className="hero-contact-info">
+
+                <p className="hero-note">
+                    Christchurch, New Zealand · Open to relocation
+                </p>
+
+                <a className="hero-phone" href="tel:+64226454024">
+                    ☎ +64 22 645 4024
+                </a>
+
+            </div>
 
         </div>
 
