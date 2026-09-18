@@ -18,40 +18,56 @@ function Projects() {
 
             <div className="project-grid">
 
-                <div className="project-card">
-                    <span className="project-number">01</span>
-                    <h3>Community Health & Wellbeing Platform</h3>
-                    <p className="project-company">PHF Science</p>
-                    <h4>Situation</h4> <p> Public health and community wellbeing data was spread across multiple datasets, formats and geographic levels across New Zealand. </p>
+               <div className="project-card">
+                <span className="project-number">01</span>
 
-                    <h4>Task</h4> <p> Build an automated and reusable system to analyse community wellbeing
-                         indicators and generate profiles for Territorial Authorities across New Zealand. </p>
+                <h3>Community Health & Wellbeing Profile System</h3>
+                <p className="project-company">PHF Science</p>
 
-                    <h4>Action</h4> <p> Built Python ETL pipelines to clean and combine datasets,
-                         calculate wellbeing indicators and composite scores, aggregate SA2 data to TA level, perform geospatial analysis with GeoPandas, and automatically generate maps, charts and summary tables. </p>
+                <h4>Situation</h4>
+                <p>
+                    Community wellbeing information was spread across Census, crime,
+                    environmental and air-quality datasets, making consistent analysis
+                    across New Zealand difficult.
+                </p>
 
-                    <h4>Result</h4> <p> Developed an automated Community Health & Wellbeing Profile System that
-                         transforms multiple datasets into reusable analysis and generates consistent community profiles
-                          for TAs across New Zealand. </p>
+                <h4>Task</h4>
+                <p>
+                    My goal was to build an automated and reusable system to analyse
+                    community wellbeing across 2,395 SA2 areas and generate profiles
+                    for Territorial Authorities across New Zealand.
+                </p>
 
-                    <div className="project-tools">
-                        <span>Python</span>
-                        <span>Pandas</span>
-                        <span>GeoPandas</span>
-                        <span>NumPy</span>
-                        <span>Matplotlib</span>
-                        <span>Folium</span>
-                        <span>ETL</span>
-                        <span>Geospatial Analysis</span>
-                    </div>
+                <h4>Action</h4>
+                <p>
+                    I developed Python ETL pipelines combining Census and community
+                    wellbeing data from 2018 and 2023, Police victimisation data from
+                    2022–2024, environmental data for 2023, and air-quality data from
+                    2018–2022. I calculated wellbeing indicators and composite scores,
+                    aggregated SA2 data to Territorial Authority level, performed
+                    geospatial analysis, and automated maps, charts, summary tables
+                    and report generation.
+                </p>
 
-                    <button 
-                        className="project-link"
-                        onClick={() => viewProject(0)}>
-                            View Project
-                        </button>
+                <h4>Result</h4>
+                <p>
+                    The project delivered an automated Community Health & Wellbeing
+                    Profile System that transforms multiple datasets into consistent
+                    community-level analysis, visualisations and reports for 67
+                    Territorial Authorities across New Zealand.
+                </p>
 
+                <div className="project-tools">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>GeoPandas</span>
+                    <span>NumPy</span>
+                    <span>Matplotlib</span>
+                    <span>Folium</span>
+                    <span>ETL</span>
+                    <span>Geospatial Analysis</span>
                 </div>
+            </div>
 
                 <div className="project-card">
                     <span className="project-number">02</span>
@@ -60,28 +76,30 @@ function Projects() {
                     <p className="project-company">PHF Science</p>
                 <h4>Situation</h4>
                     <p>
-                        Researchers needed an easier way to create data-driven reports
-                        containing statistics, tables, charts, maps and analytical content.
+                        Researchers needed an efficient way to produce complex reports containing
+                        statistics, tables, charts, maps and analytical insights.
                     </p>
 
                     <h4>Task</h4>
                     <p>
-                        Develop a Microsoft Word Add-in that could generate, insert and
-                        refresh dynamic reporting content directly in Word.
+                        My role was to help create a Microsoft Word Add-in that could bring
+                        information from multiple sources into documents and keep it up to date
+                        without relying on repetitive manual work.
                     </p>
 
                     <h4>Action</h4>
                     <p>
-                        Developed the Word Add-in using React, TypeScript and Office.js,
-                        integrated REST APIs and PostgreSQL data, and added LLM-generated
-                        titles, captions and analytical content.
+                        I built the user interface using React and TypeScript and integrated it
+                        with Microsoft Word through Office.js. I connected REST APIs and PostgreSQL
+                        to retrieve dynamic values, tables, charts and maps, and incorporated LLM
+                        capabilities to generate AI-assisted narratives and captions.
                     </p>
 
                     <h4>Result</h4>
                     <p>
-                        Built an automated reporting solution that enabled researchers to
-                        insert and refresh statistics, tables, charts, maps and AI-assisted
-                        content directly in Microsoft Word.
+                        The solution streamlined document creation by allowing researchers to
+                        insert, update and generate analytical material directly within their
+                        existing Microsoft Word workflow.
                     </p>
 
                     <div className="project-tools">
@@ -91,9 +109,10 @@ function Projects() {
                         <span>Node.js</span>
                         <span>Express.js</span>
                         <span>PostgreSQL</span>
+                        <span>REST APIs</span>
+                        <span>LLM</span>
                     </div>
-
-                    <button
+                                        <button
                         className="project-link"
                         onClick={() => viewProject(1)} >
                             View Project
@@ -104,26 +123,32 @@ function Projects() {
                     <span className="project-number">03</span>
                     <h3>Property Business Intelligence Solution</h3>
                     <p className="project-company">MVP Studio</p>
-                    <h4>Situation</h4>
+                     <h4>Situation</h4>
                         <p>
-                            Property, location and school data was stored across multiple CSV and Excel datasets.
+                            Property, location and school information was spread across multiple
+                            CSV and Excel datasets, making analysis and comparison difficult.
                         </p>
 
                         <h4>Task</h4>
                         <p>
-                            Build an end-to-end Business Intelligence solution for analysing Australian property data.
+                            My goal was to create an end-to-end Business Intelligence solution
+                            that transformed Australian property data into a structured format
+                            for analysis and decision-making.
                         </p>
 
                         <h4>Action</h4>
                         <p>
-                            Designed a SQL Server data warehouse using dimensional modelling, built SSIS ETL pipelines
-                            to extract, transform and load data, and developed a Power BI data model with DAX measures.
+                            I designed a dimensional data warehouse in SQL Server and created
+                            SSIS ETL pipelines to extract, clean, transform and load source data.
+                            I also created analytical SQL views and a Power BI data model with
+                            DAX measures for interactive analysis.
                         </p>
 
                         <h4>Result</h4>
                         <p>
-                            Developed interactive Power BI dashboards to analyse property values by city, suburb,
-                            postcode and value category, with geographic mapping and interactive filters.
+                            The final dashboard provided an interactive view of property values
+                            across cities, suburbs, postcodes and value categories, supported by
+                            geographic visualisations and dynamic filtering.
                         </p>
 
                         <div className="project-tools">
@@ -132,6 +157,7 @@ function Projects() {
                             <span>Power BI</span>
                             <span>DAX</span>
                             <span>ETL</span>
+                            <span>Data Warehousing</span>
                             <span>Dimensional Modelling</span>
                         </div>
 
