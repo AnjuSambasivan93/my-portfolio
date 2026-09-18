@@ -9,17 +9,31 @@ function About() {
             <h2> Turning data into clear insights and practical solutions</h2>
             <div className="about-content">
             <div className="about-text">
-           <p>
-            Data & Business Intelligence Analyst with a Master of Applied Data Science from the University of Canterbury and professional experience in data analytics, business intelligence, and automated reporting.
-        </p>
+          <p>
+                        Kia ora, my name is Anju. I’m a Data and Business Intelligence Analyst
+                        with a Master of Applied Data Science from the University of Canterbury.
+                    </p>
 
-        <p>
-            Skilled in Python, SQL, Power BI, ETL, data modelling, PostgreSQL, and data visualisation, with experience transforming complex datasets into clear, actionable insights. At PHF Science, developed automated data pipelines and Community Health and Wellbeing Profiles using statistical and geospatial analysis, and contributed to an AI-powered Microsoft Word reporting platform that generated and refreshed data, tables, charts, maps, and analytical content.
-        </p>
+                    <p>
+                        I enjoy working with data to understand problems, find useful patterns
+                        and turn complex information into clear insights. My experience includes
+                        Python, SQL, Power BI, ETL, data modelling, spatial analysis and automated
+                        reporting.
+                    </p>
 
-        <p>
-            Experienced in working with researchers and stakeholders to understand requirements, validate data, solve analytical problems, and deliver reliable, practical reporting solutions. Technical experience with React, TypeScript, REST APIs, and Office.js also supports the development of data-driven applications.
-        </p>
+                    <p>
+                        At PHF Science, I worked on projects that combined data analytics with
+                        software development. I developed data pipelines and Community Health and
+                        Wellbeing Profiles for communities across New Zealand, and contributed to
+                        an AI-powered Microsoft Word reporting platform.
+                    </p>
+
+                    <p>
+                        What I enjoy most is building practical solutions that make data easier
+                        for people to understand and use. I’m continuing to develop my skills in
+                        data analytics, business intelligence, cloud technologies and AI-enabled
+                        data solutions.
+                    </p>
                 </div>
 
             <div className="about-details">

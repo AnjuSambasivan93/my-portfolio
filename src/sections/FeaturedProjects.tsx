@@ -15,6 +15,8 @@ import community10 from "../assets/projects/community-10.png";
 
 
 import addin1 from "../assets/projects/addin-1.png";
+import addin2 from "../assets/projects/addin-2.png";
+import addin3 from "../assets/projects/addin-3.png";
 
 
 import ssis1 from "../assets/projects/ssis-1.png";
@@ -55,7 +57,9 @@ function FeaturedProjects() {
             description: 
             "Developed a reporting platform that generates data, charts, maps and AI-assisted content directly in Microsoft Word.",
             images: [
-                addin1
+                addin1,
+                addin2,
+                addin3
             ],
             tools: "React, TypeScript, Node.js, PostgreSQL, Office.js, LLM",
             link:"#"
