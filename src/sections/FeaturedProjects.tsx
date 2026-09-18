@@ -152,6 +152,14 @@ function FeaturedProjects() {
                 </div>
             </div>
 
+            {/* Show this note only for the AI-Powered Reporting Platform */}
+            {currentProject === 1 && (
+                <p className="image-note">
+                    Note: Screenshots show an early prototype of the Word Add-in interface.
+                </p>
+            )}
+
+
 
             <p className="featured-tools">
                 {project.tools}

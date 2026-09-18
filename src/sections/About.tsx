@@ -22,10 +22,10 @@ function About() {
                     </p>
 
                     <p>
-                        At PHF Science, I worked on projects that combined data analytics with
-                        software development. I developed data pipelines and Community Health and
-                        Wellbeing Profiles for communities across New Zealand, and contributed to
-                        an AI-powered Microsoft Word reporting platform.
+                        At PHF Science, I worked across data analytics, automated reporting
+                        and software development. My work involved building data pipelines,
+                        analysing complex datasets, creating visualisations, and contributing
+                        to an AI-powered Microsoft Word reporting platform.
                     </p>
 
                     <p>
