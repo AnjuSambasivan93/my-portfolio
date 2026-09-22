@@ -30,7 +30,7 @@ function Contact() {
                 </a>
 
                 <a
-                    href="https://github.com/AnjuSambasivan93/anju_data_analyst"
+                    href="https://github.com/AnjuSambasivan93/ANJU-DATA-ANALYST"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
