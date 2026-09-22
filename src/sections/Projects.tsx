@@ -148,7 +148,7 @@ function Projects() {
                     <h4>Result</h4>
                     <p>
                         The completed solution enabled property market analysis across New
-                        South Wales. The analysis identified Northbridge as the highest-value
+                        South Wales. The analysis of the project dataset identified Northbridge as the highest median value
                         suburb at $3.21M, compared with approximately $95K in Broken Hill.
                         It also showed that 82.91% of properties were in the $0-$750K value
                         category, 14.77% were between $750K-$1.5M, and 2.20% were between
