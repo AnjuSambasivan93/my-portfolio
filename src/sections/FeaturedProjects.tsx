@@ -29,6 +29,9 @@ import electricity1 from "../assets/projects/electricity-1.png";
 import electricity2 from "../assets/projects/electricity-2.png";
 import electricity3 from "../assets/projects/electricity-3.png";
 
+import powerbi1 from "../assets/projects/powerbi-1.png";
+
+
 function FeaturedProjects() {
 
     const projects = [
@@ -94,6 +97,18 @@ function FeaturedProjects() {
             ],
             tools: "Python, Pandas, Machine Learning, XGBoost, TensorFlow, Keras",
             link: "#"
+        },
+        {
+            title: "Power BI Analytics Dashboards",
+            company: "Business Intelligence Projects",
+            description:
+                "Developing interactive Power BI dashboards that transform raw data into clear, business-focused insights using Power Query, data modelling and DAX. The current dashboard focuses on personal finance, providing visibility into income, expenses, savings and financial performance.",
+            images: [
+                powerbi1
+            ],
+            
+            tools: "Power BI, DAX, Power Query, Data Modelling",
+            link: "https://github.com/AnjuSambasivan93/POWER-BI-PORTFOLIO"
         }
     ];
 
