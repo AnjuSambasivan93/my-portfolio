@@ -74,7 +74,7 @@ function Hero() {
                 
 
                 <div className="hero-socials">
-                    <a href="https://github.com/AnjuSambasivan93/anju_data_analyst" target="_blank" rel="noopener noreferrer"><FaGithub />GitHub</a>
+                    <a href="https://github.com/AnjuSambasivan93/ANJU-DATA-ANALYST" target="_blank" rel="noopener noreferrer"><FaGithub />GitHub</a>
 
                     <a href="https://www.linkedin.com/in/anjusambasivan/" target="_blank" rel="noopener noreferrer"><FaLinkedin/>LinkedIn</a>
 
