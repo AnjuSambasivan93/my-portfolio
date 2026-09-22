@@ -83,7 +83,7 @@ function Experience() {
             <div className="experience-item"> 
                 <div className="experience-header"> 
                     <div> 
-                        <h3>Associate Analyst - Data Analytics</h3> 
+                        <h3>Associate Data Analyst</h3> 
                         <h4>Brain Script Analytica</h4> 
                     </div> 
                     <span>Nov 2018 - Aug 2020</span> 
