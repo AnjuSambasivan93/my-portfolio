@@ -25,6 +25,9 @@ import ssis3 from "../assets/projects/ssis-3.png";
 import ssis4 from "../assets/projects/ssis-4.png";
 import ssis5 from "../assets/projects/ssis-5.png";
 
+import electricity1 from "../assets/projects/electricity-1.png";
+import electricity2 from "../assets/projects/electricity-2.png";
+import electricity3 from "../assets/projects/electricity-3.png";
 
 function FeaturedProjects() {
 
@@ -77,6 +80,19 @@ function FeaturedProjects() {
                 ssis5
             ],
             tools: "SQL Server, SSIS, Power BI, ETL, Data Warehousing, SQL",
+            link: "#"
+        },
+        {
+            title: "Electricity Load Forecasting",
+            company: "Brain Script Analytica",
+            description:
+                "Analysed historical electricity demand and compared machine learning models for load forecasting, with XGBoost using Min-Max normalisation achieving the strongest reported performance at 84.53%.",
+            images: [
+                electricity1,
+                electricity2,
+                electricity3
+            ],
+            tools: "Python, Pandas, Machine Learning, XGBoost, TensorFlow, Keras",
             link: "#"
         }
     ];

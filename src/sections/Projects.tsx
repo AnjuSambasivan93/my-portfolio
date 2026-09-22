@@ -17,57 +17,55 @@ function Projects() {
             <p className="section-number">PROJECTS</p>
 
             <div className="project-grid">
+              <div className="project-card">  
+                    <span className="project-number">01</span>  
 
-               <div className="project-card">
-                <span className="project-number">01</span>
+                    <h3>Community Health & Wellbeing Profile System</h3>  
+                    <p className="project-company">
+                        PHF Science | Data Science Research Project
+                    </p>  
 
-                <h3>Community Health & Wellbeing Profile System</h3>
-                <p className="project-company">PHF Science</p>
+                    <h4>Situation</h4>  
+                    <p>  
+                        Community wellbeing data was spread across Census, crime, 
+                        environmental and air-quality sources, making consistent analysis 
+                        across New Zealand communities difficult.
+                    </p>  
 
-                <h4>Situation</h4>
-                <p>
-                    Community wellbeing information was spread across Census, crime,
-                    environmental and air-quality datasets, making consistent analysis
-                    across New Zealand difficult.
-                </p>
+                    <h4>Task</h4>  
+                    <p>  
+                        Develop an automated system to integrate community data, calculate 
+                        wellbeing indicators and generate profiles for Territorial Authorities 
+                        across New Zealand.
+                    </p>  
 
-                <h4>Task</h4>
-                <p>
-                    My goal was to build an automated and reusable system to analyse
-                    community wellbeing across 2,395 SA2 areas and generate profiles
-                    for Territorial Authorities across New Zealand.
-                </p>
+                    <h4>Action</h4>  
+                    <p>  
+                        Built Python ETL and geospatial pipelines covering 2,395 SA2 areas 
+                        and more than 850,000 Police victimisation records. Automated data 
+                        cleaning, indicator calculation, geographic aggregation, maps, charts 
+                        and report generation.
+                    </p>  
 
-                <h4>Action</h4>
-                <p>
-                    I developed Python ETL pipelines combining Census and community
-                    wellbeing data from 2018 and 2023, Police victimisation data from
-                    2022–2024, environmental data for 2023, and air-quality data from
-                    2018–2022. I calculated wellbeing indicators and composite scores,
-                    aggregated SA2 data to Territorial Authority level, performed
-                    geospatial analysis, and automated maps, charts, summary tables
-                    and report generation.
-                </p>
+                    <h4>Result</h4>  
+                    <p>  
+                        The analysis identified clear geographic differences. In 2023, the 
+                        calculated victimisation rate was 95.7 per 1,000 people in Christchurch 
+                        City compared with 61.4 in Far North District. Far North also recorded 
+                        9.55% household crowding compared with 4.61% in Christchurch. The 
+                        project delivered a reusable workflow for community wellbeing analysis 
+                        and automated reporting.
+                    </p>  
 
-                <h4>Result</h4>
-                <p>
-                    The project delivered an automated Community Health & Wellbeing
-                    Profile System that transforms multiple datasets into consistent
-                    community-level analysis, visualisations and reports for 67
-                    Territorial Authorities across New Zealand.
-                </p>
-
-                <div className="project-tools">
-                    <span>Python</span>
-                    <span>Pandas</span>
-                    <span>GeoPandas</span>
-                    <span>NumPy</span>
-                    <span>Matplotlib</span>
-                    <span>Folium</span>
-                    <span>ETL</span>
-                    <span>Geospatial Analysis</span>
+                    <div className="project-tools">  
+                        <span>Python</span>  
+                        <span>Pandas</span>  
+                        <span>GeoPandas</span>  
+                        <span>ETL</span>  
+                        <span>Geospatial Analysis</span>  
+                        <span>Data Visualisation</span>
+                    </div>  
                 </div>
-            </div>
 
                 <div className="project-card">
                     <span className="project-number">02</span>
@@ -118,38 +116,45 @@ function Projects() {
                             View Project
                         </button>
                 </div>
-
                 <div className="project-card">
                     <span className="project-number">03</span>
+
                     <h3>Property Business Intelligence Solution</h3>
-                    <p className="project-company">MVP Studio</p>
-                     <h4>Situation</h4>
-                        <p>
-                            Property, location and school information was spread across multiple
-                            CSV and Excel datasets, making analysis and comparison difficult.
-                        </p>
+                    <p className="project-company">MVP Studio | Data Analyst Internship</p>
 
-                        <h4>Task</h4>
-                        <p>
-                            My goal was to create an end-to-end Business Intelligence solution
-                            that transformed Australian property data into a structured format
-                            for analysis and decision-making.
-                        </p>
+                    <h4>Situation</h4>
+                    <p>
+                        During my Data Analyst internship at MVP Studio, I worked on an
+                        end-to-end Business Intelligence project using Australian property,
+                        location and school datasets to gain practical experience across the
+                        complete BI development lifecycle.
+                    </p>
 
-                        <h4>Action</h4>
-                        <p>
-                            I designed a dimensional data warehouse in SQL Server and created
-                            SSIS ETL pipelines to extract, clean, transform and load source data.
-                            I also created analytical SQL views and a Power BI data model with
-                            DAX measures for interactive analysis.
-                        </p>
+                    <h4>Task</h4>
+                    <p>
+                        My task was to integrate data from multiple sources and develop a
+                        structured BI solution for analysing property values across locations,
+                        including cities, suburbs, postcodes and property value categories.
+                    </p>
 
-                        <h4>Result</h4>
-                        <p>
-                            The final dashboard provided an interactive view of property values
-                            across cities, suburbs, postcodes and value categories, supported by
-                            geographic visualisations and dynamic filtering.
-                        </p>
+                    <h4>Action</h4>
+                    <p>
+                        I developed SSIS ETL pipelines to extract, clean and load the source
+                        data into a dimensional data warehouse in SQL Server. I created SQL
+                        views for analysis and built a Power BI semantic model with DAX
+                        measures, interactive filters and geographic visualisations.
+                    </p>
+
+                    <h4>Result</h4>
+                    <p>
+                        The completed solution enabled property market analysis across New
+                        South Wales. The analysis identified Northbridge as the highest-value
+                        suburb at $3.21M, compared with approximately $95K in Broken Hill.
+                        It also showed that 82.91% of properties were in the $0-$750K value
+                        category, 14.77% were between $750K-$1.5M, and 2.20% were between
+                        $1.5-$2.5M, providing a clear view of property value distribution
+                        across the market.
+                    </p>
 
                         <div className="project-tools">
                             <span>SQL Server</span>
@@ -166,6 +171,69 @@ function Projects() {
                         onClick={() => viewProject(2)}>
                             View Project
                         </button>
+                </div>
+
+
+                <div className="project-card">
+                    <span className="project-number">04</span>
+
+                    <h3>Electricity Load Forecasting</h3>
+                    <p className="project-company">
+                        Machine Learning Research Project
+                    </p>
+
+                    <h4>Situation</h4>
+                    <p>
+                        Accurate electricity load forecasting is important for power generation
+                        and distribution planning. Historical load data from Pala substation
+                        was analysed to investigate how machine learning could be used to
+                        predict electricity demand.
+                    </p>
+
+                    <h4>Task</h4>
+                    <p>
+                        Compare multiple machine learning models and normalization techniques
+                        to identify the most effective approach for forecasting the hourly
+                        load of an incomer at the substation.
+                    </p>
+
+                    <h4>Action</h4>
+                    <p>
+                        Prepared approximately 3,900 historical load observations and used an
+                        80/20 training and testing approach. I compared Multiple Linear
+                        Regression, Support Vector Regression, Decision Tree, Random Forest,
+                        XGBoost and Artificial Neural Network models. Each approach was
+                        evaluated using data without normalization, Min-Max normalization and
+                        Z-score normalization, with performance assessed using R², MAE, MSE
+                        and RMSE.
+                    </p>
+
+                    <h4>Result</h4>
+                    <p>
+                        XGBoost with Min-Max normalization achieved the highest reported
+                        performance at 84.53%, compared with 84.01% for Multiple Linear
+                        Regression without normalization and 84.43% for the best ANN
+                        configuration using Z-score normalization. The analysis identified
+                        XGBoost with Min-Max normalization as the selected model for predicting
+                        the substation's incomer load.
+                    </p>
+
+                    <div className="project-tools">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>XGBoost</span>
+                        <span>Random Forest</span>
+                        <span>Regression</span>
+                        <span>Neural Networks</span>
+                        <span>Pandas</span>
+                        <span>Scikit-learn</span>
+                    </div>
+
+                     <button
+                        className="project-link"
+                        onClick={() => viewProject(3)}>
+                        View Project
+                    </button>
                 </div>
 
             </div>
