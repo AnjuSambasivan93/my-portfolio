@@ -20,10 +20,10 @@ function Hero() {
                     View Projects
                 </a>
 
-                <a href="/ANJU_SAMBASIVAN_CV_Data_Analytics_09_2026.pdf" target="_blank" rel="noopener noreferrer" className="secondary-button">
+                <a href="/Anju_Sambasivan_Data_Analyst_CV_09_2026.pdf" target="_blank" rel="noopener noreferrer" className="secondary-button">
                 View CV</a>
 
-                <a href="/ANJU_SAMBASIVAN_CV_Data_Analytics_09_2026.pdf" download className="secondary-button">
+                <a href="/Anju_Sambasivan_Data_Analyst_CV_09_2026.pdf" download className="secondary-button">
                     Download CV
                 </a>
             </div>

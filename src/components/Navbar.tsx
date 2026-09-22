@@ -31,7 +31,7 @@ function Navbar() {
                 <a href="#contact" onClick={closeMenu}>Contact</a>
 
                 <a
-                    href="/ANJU_SAMBASIVAN_CV_Data_Analytics_09_2026.pdf"
+                    href="/Anju_Sambasivan_Data_Analyst_CV_09_2026.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cv-button"
