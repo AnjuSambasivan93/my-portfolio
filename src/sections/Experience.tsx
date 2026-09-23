@@ -86,7 +86,7 @@ function Experience() {
                         <h3>Associate Data Analyst</h3> 
                         <h4>Brain Script Analytica</h4> 
                     </div> 
-                    <span>Feb 2018 - Aug 2021</span> 
+                    <span>Feb 2019 - Aug 2021</span> 
                 </div> 
  
                 <p>
