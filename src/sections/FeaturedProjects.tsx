@@ -30,6 +30,7 @@ import electricity2 from "../assets/projects/electricity-2.png";
 import electricity3 from "../assets/projects/electricity-3.png";
 
 import powerbi1 from "../assets/projects/powerbi-1.png";
+import powerbi2 from "../assets/projects/powerbi-2.png";
 
 
 function FeaturedProjects() {
@@ -83,7 +84,7 @@ function FeaturedProjects() {
                 ssis5
             ],
             tools: "SQL Server, SSIS, Power BI, ETL, Data Warehousing, SQL",
-            link: "#"
+            link: "https://github.com/AnjuSambasivan93/POWER-BI-PORTFOLIO/tree/main/Personal-Finance-Dashboard"
         },
         {
             title: "Electricity Load Forecasting",
@@ -102,14 +103,25 @@ function FeaturedProjects() {
             title: "Power BI Analytics Dashboards",
             company: "Business Intelligence Projects",
             description:
-                "Developing interactive Power BI dashboards that transform raw data into clear, business-focused insights using Power Query, data modelling and DAX. The current dashboard focuses on personal finance, providing visibility into income, expenses, savings and financial performance.",
+            "Developed an interactive Power BI personal finance dashboard to track monthly income, expenses and available balance, compare income against targets, and analyse income and expense trends using interactive month filters.",
             images: [
                 powerbi1
             ],
             
             tools: "Power BI, DAX, Power Query, Data Modelling",
-            link: "https://github.com/AnjuSambasivan93/POWER-BI-PORTFOLIO"
-        }
+            link: "https://github.com/AnjuSambasivan93/POWER-BI-PORTFOLIO/tree/main/Personal-Finance-Dashboard"
+        },
+        {
+            title: "New Zealand Police Victimisation Analytics",
+            company: "Data Analytics Project",
+            description:
+                "Developed an end-to-end analytics solution using Databricks, PySpark and Delta Lake to process more than 1.5 million New Zealand Police victimisation records, with an interactive Power BI dashboard for analysing trends across time, geographic areas, offence types, locations and demographics.",
+            images: [
+                powerbi2
+            ],
+            tools: "Databricks, PySpark, Delta Lake, Power BI, DAX, Python",
+            link: "https://github.com/AnjuSambasivan93/POWER-BI-PORTFOLIO/tree/main/NZ-Police-Victimisation-Analytics"
+        },
     ];
 
     const currentProject = useProjectStore((state) => state.selectedProject);
@@ -195,6 +207,17 @@ function FeaturedProjects() {
             <p className="featured-tools">
                 {project.tools}
             </p>
+
+            {project.link !== "#" && (
+                <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="featured-link"
+                >
+                    View Project on GitHub →
+                </a>
+            )}
             {currentProject === 0 && (
                 <div className="sample-reports">
 

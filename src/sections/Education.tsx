@@ -102,36 +102,6 @@ function Education() {
                     </div>
 
 
-                    {/* Power BI */}
-                    <div className="education-item">
-                        <div>
-                            <h3>Power BI Data Modeling with DAX</h3>
-                            <p>LinkedIn Learning</p>
-
-                            <a
-                                href= "https://www.linkedin.com/learning/certificates/64f54fc4d06b58235d536c22e4170b2a847cb4971655946dd527a0351c62bab4"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >View Credential</a>
-                        </div>
-                    </div>
-
-
-                    {/* Networking */}
-                    <div className="education-item">
-                        <div>
-                            <h3>Cisco Networking Academy - Networking</h3>
-                            <p>Cisco Networking Academy</p>
-
-                           <a
-                                href="https://www.credly.com/badges/6dc34ab3-6447-4133-8060-c08c74d64dd9"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >View Credential</a>
-                        </div>
-                    </div>
-
-
                     {/* Docker */}
                     <div className="education-item">
                         <div>
@@ -147,6 +117,23 @@ function Education() {
                             >View Credential</a>
                         </div>
                     </div>
+
+                    <div className="education-item">
+                    <div>
+                        <h3>
+                            Databricks Certified Data Engineer Associate - Ultimate Prep
+                        </h3>
+                        <p>Udemy</p>
+
+                        <a
+                            href="http://ude.my/UC-cf7894e3-2e97-434d-8744-e9ef78a87f85"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Credential
+                        </a>
+                    </div>
+                </div>
 
                 </div>
 
