@@ -58,6 +58,8 @@ function Skills() {
                         <span>Snowflake</span> 
                         <span>Databricks</span> 
                         <span>SQLite</span> 
+                        <span>Apache Spark</span>
+                        <span>PySpark</span>
                         <span>Microsoft Azure</span> 
                     </div> 
                 </div> 
