@@ -65,6 +65,13 @@ function Projects() {
                         <span>Geospatial Analysis</span>  
                         <span>Data Visualisation</span>
                     </div>  
+
+                    
+                        <button
+                        className="project-link"
+                        onClick={() => viewProject(0)} >
+                            View Project
+                        </button>
                 </div>
 
                 <div className="project-card">
