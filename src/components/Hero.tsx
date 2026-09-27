@@ -1,5 +1,5 @@
 import "../styles/hero.css";
-import { FaGithub, FaLinkedin,  FaEnvelope} from "react-icons/fa";
+import { FaGithub, FaLinkedin,  FaEnvelope, FaPhone} from "react-icons/fa";
 import profileImage from "../assets/profile.jpg";
 
 function Hero() {
@@ -56,13 +56,13 @@ function Hero() {
            <div className="hero-contact-info">
 
                 <p className="hero-note">
-                    Christchurch, New Zealand · Open to relocation
-                </p>
+                    Christchurch, New Zealand · Open to relocation · Looking for new opportunities
+                <br />
 
                 <a className="hero-phone" href="tel:+64226454024">
-                    ☎ +64 22 645 4024
+                    <FaPhone /> +64 22 645 4024
                 </a>
-
+                </p>
             </div>
 
         </div>
@@ -78,7 +78,9 @@ function Hero() {
 
                     <a href="https://www.linkedin.com/in/anjusambasivan/" target="_blank" rel="noopener noreferrer"><FaLinkedin/>LinkedIn</a>
 
-                    <a href="mailto:aanju9363@gmail.com"><FaEnvelope/>Email</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aanju9363@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"><FaEnvelope/>Email</a>
                 </div>
             </div>
 
