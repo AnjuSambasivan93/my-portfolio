@@ -221,29 +221,29 @@ function FeaturedProjects() {
             {currentProject === 0 && (
                 <div className="sample-reports">
 
-                    <a href="/reports/report-1.pdf" target="_blank">
+                    <a href="/reports/report-1.pdf#toolbar=0&navpanes=0" target="_blank">
                         Sample Report 1
                     </a>
 
-                    <a href="/reports/report-2.pdf" target="_blank">
+                    <a href="/reports/report-2.pdf#toolbar=0&navpanes=0" target="_blank">
                         Sample Report 2
                     </a>
 
-                    <a href="/reports/report-3.pdf" target="_blank">
+                    <a href="/reports/report-3.pdf#toolbar=0&navpanes=0" target="_blank">
                         Sample Report 3
                     </a>
 
-                    <a href="/reports/report-4.pdf" target="_blank">
+                    <a href="/reports/report-4.pdf#toolbar=0&navpanes=0" target="_blank">
                         Sample Report 4
                     </a>
 
-                    <a href="/reports/report-5.pdf" target="_blank">
+                    <a href="/reports/report-5.pdf#toolbar=0&navpanes=0" target="_blank">
                         Sample Report 5
                     </a>
-                    <a href="/reports/report-6.pdf" target="_blank">
+                    <a href="/reports/report-6.pdf#toolbar=0&navpanes=0" target="_blank">
                         Sample Report 6
                     </a>
-                    <a href="/reports/report-7.pdf" target="_blank">
+                    <a href="/reports/report-7.pdf#toolbar=0&navpanes=0" target="_blank">
                         Sample Report 7
                     </a>
 
