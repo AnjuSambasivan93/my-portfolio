@@ -117,11 +117,14 @@ function Projects() {
                         <span>REST APIs</span>
                         <span>LLM</span>
                     </div>
-                                        <button
-                        className="project-link"
-                        onClick={() => viewProject(1)} >
+                        {/*
+                        <button
+                            className="project-link"
+                            onClick={() => viewProject(1)}
+                        >
                             View Project
                         </button>
+                        */}
                 </div>
                 <div className="project-card">
                     <span className="project-number">03</span>

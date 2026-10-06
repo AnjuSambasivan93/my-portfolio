@@ -13,11 +13,11 @@ import community8 from "../assets/projects/community-8.png";
 import community9 from "../assets/projects/community-9.png";
 import community10 from "../assets/projects/community-10.png";
 
-
+/*
 import addin1 from "../assets/projects/addin-1.png";
 import addin2 from "../assets/projects/addin-2.png";
 import addin3 from "../assets/projects/addin-3.png";
-
+*/
 
 import ssis1 from "../assets/projects/ssis-1.png";
 import ssis2 from "../assets/projects/ssis-2.png";
@@ -57,7 +57,7 @@ function FeaturedProjects() {
             link: "#"
             
         },
-
+/*
         {
             title: "AI-Powered Reporting Platform",
             company: "PHF Science",
@@ -71,6 +71,7 @@ function FeaturedProjects() {
             tools: "React, TypeScript, Node.js, PostgreSQL, Office.js, LLM",
             link:"#"
         },
+        */
         {
             title: "Property Market Business Intelligence Solution",
             company: "MVP Studio",
@@ -194,14 +195,13 @@ function FeaturedProjects() {
                     {currentImage + 1} / {project.images.length}
                 </div>
             </div>
-
-            {/* Show this note only for the AI-Powered Reporting Platform */}
-            {currentProject === 1 && (
-                <p className="image-note">
-                    Note: Screenshots show an early prototype of the Word Add-in interface.
-                </p>
-            )}
-
+             {/*
+                {currentProject === 1 && (
+                    <p className="image-note">
+                        Note: Screenshots show an early prototype of the Word Add-in interface.
+                    </p>
+                )}
+                */}
 
 
             <p className="featured-tools">
